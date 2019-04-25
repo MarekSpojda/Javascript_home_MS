@@ -3,7 +3,8 @@
 
 # JavaScript - zadania domowe
 > Kod wpisz w odpowiednim pliku, zgodnie z poleceniem zadania.
-Uważnie czytaj treść zadania – utworzone przez Ciebie strony MUSZĄ wyświetlać te same komunikaty co w treści zadania, a funkcje i metody MUSZĄ posiadać nazwy dokładnie takie same jak podane
+Uważnie czytaj treść zadania – utworzone przez Ciebie strony MUSZĄ wyświetlać te same komunikaty co w treści zadania,
+a funkcje i metody MUSZĄ posiadać nazwy dokładnie takie same jak podane
 w zadaniu.
 
 ## Dzień 3 - Eventy

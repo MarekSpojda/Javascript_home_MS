@@ -2,8 +2,8 @@
 
 # JavaScript - zadania domowe
 > Kod wpisz w odpowiednim pliku, zgodnie z poleceniem zadania.
-Uważnie czytaj treść zadania – utworzone przez Ciebie strony MUSZĄ wyświetlać te same komunikaty co w treści zadania, a funkcje i metody MUSZĄ posiadać nazwy dokładnie takie same jak podane
-w zadaniu.
+Uważnie czytaj treść zadania – utworzone przez Ciebie strony MUSZĄ wyświetlać te same komunikaty co w treści zadania,
+a funkcje i metody MUSZĄ posiadać nazwy dokładnie takie same jak podane w zadaniu.
 
 ### Dzień 2 - DOM
 > Zadanie 1 wykonaj w pliku searchDom.js
@@ -36,9 +36,11 @@ elementy **li** to dzieci elementu o id ```#menu```.
 **4. Szukanie elementu po klasie:**
 - Znajdź elementy o **klasie** ```.images```.
 - Stwórz funkcję ```getElementAlt(element)``` do której przekaż, jako argument, znalezione elementy.
-- Stwórz w funkcji tablicę i wypełnij ją wartościami pobranymi z atrybutu alt obrazków. Pobierz te atrybuty z przekazanych jako argument elementów.
+- Stwórz w funkcji tablicę i wypełnij ją wartościami pobranymi z atrybutu alt obrazków. Pobierz te atrybuty
+z przekazanych jako argument elementów.
 
 **5. Szukanie elementu po klasie:**
 - Znajdź elementy o **klasie** ```.my-link```.
 - Stwórz funkcję ```getElementHref(element)``` do której przekaż, jako argument, znalezione elementy.
-- Stwórz w funkcji tablicę i wypełnij ją wartościami pobranymi z atrybutu href linków. Pobierz te atrybuty z przekazanych jako argument elementów.
+- Stwórz w funkcji tablicę i wypełnij ją wartościami pobranymi z atrybutu href linków. Pobierz te atrybuty z
+przekazanych jako argument elementów.
