@@ -19,9 +19,11 @@ $(function () {
 
     //Function for update bar
     let updateBar = function () {
-        let min = $('#min').val();
-        let max = $('#max').val();
-        let progressBarValue = ((spinner.val() - min) / (max - min)) * 100;
+        let min = parseFloat($('#min').val());
+        let max = parseFloat($('#max').val());
+        var spinnerVal = parseFloat(spinner.spinner("value"));
+
+        let progressBarValue = ((spinnerVal - min) / (max - min)) * 100;
         progressBar.progressbar("value", progressBarValue);
     };
 
@@ -42,13 +44,18 @@ $(function () {
         let step = $('#step').val();
         spinner.spinner("option", "step", step);
 
-        let spinnerVal = spinner.val();
-        if (spinnerVal > max) {
+        let spinnerVal = spinner.spinner("value");
+
+        if (spinnerVal >= max) {
             spinner.val(max);
         }
 
-        if (spinnerVal < min) {
+        if (spinnerVal <= min) {
             spinner.val(min);
+        }
+
+        if (spinnerVal <= max && spinnerVal >= min) {
+            spinner.val(spinnerVal);
         }
 
         updateBar();
